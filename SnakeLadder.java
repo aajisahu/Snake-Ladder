@@ -3,8 +3,17 @@ package com.snake_ladder;
 public class SnakeLadder {
 
 	public static void main(String[] args) {
-        int position = 0;
-        System.out.println("Your position is: "+ position);
+      
+		System.out.println("After roll the die You got : "+roll());
+    
+		
 	}
+	
+        public static int roll() {
+            return (int) Math.floor(Math.random() * 6) + 1;
+        }
+        
+        
+	
 	
 }
